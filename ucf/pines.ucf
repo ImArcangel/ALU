@@ -1,0 +1,49 @@
+//Ultimos slides switches para la entrada B
+
+NET "b_i<0>"          LOC = "F12" ;
+NET "b_i<1>"          LOC = "G12" ;
+NET "b_i<2>"          LOC = "H14" ;
+NET "b_i<3>"          LOC = "H13" ;
+
+//Primeros slide switches para la entrada A
+
+NET "a_i<0>"          LOC = "J14" ;
+NET "a_i<1>"          LOC = "J13" ;
+NET "a_i<2>"          LOC = "K14" ;
+NET "a_i<3>"          LOC = "K13" ;
+
+//Pulsadores
+
+NET "op_i<0>"         LOC = "M13" ;
+NET "op_i<1>"         LOC = "M14" ;
+NET "op_i<2>"         LOC = "L13" ;
+NET "op_i<3>"         LOC = "L14" ;
+
+//Asignacion de cada segmento del display
+
+NET "segmentos_o<7>"  LOC = "E14" ;
+NET "segmentos_o<6>"  LOC = "G13" ;
+NET "segmentos_o<5>"  LOC = "N15" ;
+NET "segmentos_o<4>"  LOC = "P15" ;
+NET "segmentos_o<3>"  LOC = "R16" ;
+NET "segmentos_o<2>"  LOC = "F13" ;
+NET "segmentos_o<1>"  LOC = "N16" ;
+NET "segmentos_o<0>"  LOC = "P16" ;
+
+//Asingacion de los anodos de cada display
+
+NET "anodos_o<0>"     LOC = "D14" ;
+NET "anodos_o<1>"     LOC = "G14" ;
+NET "anodos_o<2>"     LOC = "F14" ;
+NET "anodos_o<3>"     LOC = "E13" ;
+
+//NO SE
+
+NET "invalid_o"       LOC = "P11" ; // LED LD7
+
+//Asignación de los Leds para ver la operación indicada.
+
+NET "op_led_o<0>"     LOC = "K12" ;
+NET "op_led_o<1>"     LOC = "P14" ;
+NET "op_led_o<2>"     LOC = "L12" ;
+NET "op_led_o<3>"     LOC = "N14" ;
